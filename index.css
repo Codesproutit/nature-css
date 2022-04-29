@@ -1,74 +1,184 @@
-.nav1{
-    
-    color: white;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+    background-image: url("./bg1.svg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    background-color: rgba(249, 250, 253, 0.227);
+    display: flex !important;
+    height: 100px;
+    align-items: center;
+}
+.navbar > div > a {
+    padding: 30px;   
+    text-decoration: none !important;
+    color: black;
+}
+.navbar > div > a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+.right{
+    width: 25% !important;
+}
+.select{
+    background-color: transparent;
+    border: none;
     padding: 10px;
 }
-nav a{
-    text-decoration: none !important;
-   
+.logo{
+    margin-left: 60px;
+    width: 100px;
 }
-.nav{
-    width: 100% !important;
-    padding: 20px 0 20px 0;
+.mid{ 
+    width: 70%;
+}
+.left{
+    width: 30%;
+}
+
+.btn{
+    background-color: transparent;
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.btn:hover{
     background-color: black;
-    justify-content: center !important;
-    display: flex !important;
+    color: white;
 }
-.top{
-    color: azure;
-    background-color: rgb(209, 171, 154);
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
+
+.banner{
+    display: flex;
+}
+.banner-left{
+    padding: 100px;
+}
+.banner-right{
+    padding: 20px;
+    width: 80%;
+    background-image: url("./bg.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 110vh;
+}
+
+.banner-title{
+    margin-top: 20px;
+    font-size: 75px;
+}
+.banner-p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: brown;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-.main{
-    width: 100%;
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg');
+.banner-btn{
+    margin-top: 20px;
+    background-color: goldenrod;
+    width: 150px;
+    padding: 20px;
+    border: none;
+    border-radius: 10%;
+    color: white;
 }
-.m1{
-    /* margin:; */
-    text-decoration: underline black double 5px !important;
+.btn-text{
+    font-size: medium;
 }
-
-.news{
+.card{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between !important;
+}
+.inner-card{
+    padding: 50px;
+    border: solid black 1px;
+    border-radius: 20%;
     text-align: center;
-    color: azure;
-    background-color: black;
-    
 }
-.para {
-    text-transform: capitalize;
-    
+.inner-card > h3{
+    margin-top: 10px;
 }
-/* .footer{
-    width: 100%;
-    height: 50vh !important;
-    justify-content: center !important;
-    justify-items: center !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('https://img.besthqwallpapers.com/Uploads/5-4-2019/86164/blue-wall-texture-blue-stone-background-old-wall-blue-grunge-texture-stone-texture.jpg');
+.inner-card > p{
+    margin-top: 10px;
+}
+.first-card{
+    padding: 20px;
+    width: 25%;
+}
+.secand-card{
+    padding: 20px;
+    width: 25%; 
+}
+.three-card{
+    padding: 20px;
+    width: 25%;
+}
+.four-card{
+    padding: 20px;
+    width: 25%;
+}
+.selling-h3{
+    text-align: center;
+}
+.selling-h1{
+    text-align: center;
+    font-size: 60px;
 }
 
-.footer div{
-    margin-top:30px !important;
-    margin-left: 100px !important;
+.selling-content{
+    display: flex;
+    padding: auto !important;
+    height: 70vh !important;
 }
-.footer h3,ul > li {
-   
-    color:white !important;
-    list-style-type: none !important;
-    padding: 5px;
-} */
-/* .first {
-    margin-top: 20px !important;
-} */
+.selling-content1{
+    width: 35%;
+    margin:30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://technext.github.io/jadoo/v1.0.0/assets/img/dest/dest1.jpg');
+}
+.selling-content2{
+    width: 35%;
+    margin:30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://technext.github.io/jadoo/v1.0.0/assets/img/dest/dest2.jpg');
+}
+.selling-content3{
+    width: 35%;
+    margin:30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://technext.github.io/jadoo/v1.0.0/assets/img/dest/dest3.jpg');
+}
+
+.email{
+    text-align: center;
+    padding: 100px;
+    
+    background-color:rgba(223, 215, 249, 0.199);
+}
+.email >h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.email-btn{
+    background-color: orangered;
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+}
+.email-input{
+    width: 35%;
+    border-radius: 30px;
+    height: 35px;
+
+}
